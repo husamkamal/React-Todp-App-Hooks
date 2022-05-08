@@ -1,0 +1,62 @@
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  flex-direction: column;
+}
+.inputHeader{
+  width: 60%;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.inputHeader input{
+  width: 78%;
+  min-height: 2rem;
+  border: none;
+  border-radius: 15px;
+  padding-left: 1rem;
+  outline: none;
+}.button{
+  min-width: 20%;
+  border: none;
+  border-radius: 15px;
+  min-height: 2rem;
+  padding: 0 3rem;
+  text-align: center;
+  color: aliceblue;
+  background-color: black;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.list{
+  width: 62%;
+  flex-direction: column;
+  justify-content: space-around;
+  max-height: 40vh;
+  overflow: auto;
+}
+.listItem{
+  margin-bottom: .2rem;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px ;
+  border: 1px black solid;
+  border-radius: 15px;
+}
+.listItem div{
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+}
